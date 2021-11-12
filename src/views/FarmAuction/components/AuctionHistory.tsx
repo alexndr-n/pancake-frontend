@@ -8,7 +8,6 @@ import {
   Input,
   ArrowBackIcon,
   ArrowForwardIcon,
-  ArrowLastIcon,
   IconButton,
   BunnyPlaceholderIcon,
   Spinner,
@@ -140,7 +139,7 @@ const AuctionHistory: React.FC<AuctionHistoryProps> = ({ mostRecentClosedAuction
             scale="sm"
             onClick={() => handleArrowPress(mostRecentClosedAuctionId)}
           >
-            <ArrowLastIcon />
+            <ArrowForwardIcon />
           </StyledIconButton>
         </Flex>
         {isLargerScreen && (
